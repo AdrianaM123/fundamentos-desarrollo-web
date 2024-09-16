@@ -1,0 +1,36 @@
+/*Selector universal*/
+*{
+    margin: 20; /*Espacio exterior*/
+    padding: 10; /*Espacio interior*/
+    box-sizing: border-box;
+}
+
+/*Selector de tipo etiqueta*/
+body{
+    background-color: rgb(237, 240, 230);
+    font-family: Arial, sans-serif; /*Tipografia*/
+    color: rgb(95, 58, 16);
+    line-height: 1.5; /*Interlineado*/
+}
+
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(252, 227, 137);
+    color:rgb(158, 105, 8);
+    padding: 10px 0;
+}
+
+/*Selectores avanzados*/
+header h1{
+    text-align: center;
+}
+
+
+/*Selector de tipo clase*/
+.estilo{
+    background-color: rgb(221, 195, 136);
+}
