@@ -1,92 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="es"> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Enlazando con CSS-->
     <link rel="stylesheet" href="style.css">
-    <title>Todo para tu Mascota</title>
+    <title>Tienda de Mascotas 🐕Chucho Miau🐈</title> 
 </head>
 <body>
+    <header>
+        <div class="contenedor">
+            <h1>Tienda de Mascotas</h1>
+            <h1>🐕 Chucho Miau 🐈</h1>
+            <img src="img/header_animales.jpeg" alt="Chucho Miau">
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li> 
+                    <li><a href="#nuestra-historia">Nuestra Historia</a></li>
+                    <li><a href="#mas-vendidos">Los Más Vendidos</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#personal">Nuestros Amigos</a></li>
+                    <li><a href="#redes-sociales">Redes Sociales</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <main>
-        <header>
-            <div class="contenedor">
-                <h1>Tienda de Accesorios para Mascotas 🥬</h1>
-                <nav>
-                    <ul> <!--Lista desordenada-->
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Nuestra Historia</a></li>
-                        <li><a href="">Productos</a></li>
-                        <li><a href="">Los Más Vendidos</a></li>
-                        <li><a href="">Redes Sociales</a></li>
-                    </ul>
-                </nav>
+        <section class="hero" id="home"> 
+            <h2>¡Somos tus aliado en el cuidado de tus peludos amigos!</h2>
+            <p>Únete a nuestra comunidad que se preocupa por los miembros más leales y divertidos de la familia</p>
+            <button class="cta-button">Compra</button>
+        </section>
+
+        <section class="estilo" id="nuestra-historia">    
+            <div class="historia-grid">
+                <h2>Nuestra Historia</h2>
+            
+                <img src="img/tienda.jpeg" alt="Chucho Miau"> 
+                        
+                <p>Adriana siempre había tenido una conexión especial con los animales, pero su vida cambió por completo el día en que encontró a Tomasita, una pequeña perrita callejera con grandes ojos llenos de esperanza. Decidió adoptarla y, desde ese momento, Tomasita se convirtió en su fiel compañera y mejor amiga. Juntas compartieron innumerables aventuras, desde paseos por el parque hasta noches de películas acurrucadas en el sofá. Sin embargo, a medida que la manada crecía con la llegada de otros rescatados, Adriana se dio cuenta de que cada uno de sus peludos tenía necesidades únicas que no siempre se podían satisfacer con productos convencionales. <br><br>
+                Fue entonces cuando Adriana decidió abrir una tienda de mascotas, no solo para compartir su amor por los animales, sino también para ofrecer productos de calidad que realmente atendieran las necesidades específicas de cada mascota. En su tienda, cada rincón está pensado con cariño, desde juguetes diseñados para masticadores empedernidos hasta comida adaptada para cada tipo de dieta. Adriana quiere que cada dueño de mascota encuentre lo que necesita y que cada animalito se sienta especial, porque sabe que, al final del día, cada uno es único y merece lo mejor.
+
+                    <br><br>
+              
+                </p>   
             </div>
-        </header>
-
-        <section class="estilo" id="home">
-            <h2>Bienvenidos/as a la mejor tienda </h2>
-            <p>Encuentra todo lo que necesitas para tu mascota, desde una pelota hasta una casa especialmente diseñada para ellos</p>
         </section>
+        
 
-        <section class="estilo" id="nuestra-historia">
-            <h2>Nuestra Historia</h2>
-            <p>Nacimos con una pasión por el bienestar y la felicidad de las mascotas. Lo que comenzó como un pequeño proyecto entre amantes de los animales, se ha convertido en una tienda dedicada a ofrecer productos de alta calidad para el cuidado, confort y diversión de nuestros amigos peludos. Creemos que cada mascota merece lo mejor, por eso seleccionamos cuidadosamente cada artículo, desde alimentos nutritivos hasta juguetes interactivos, para asegurarnos de que tu mascota tenga una vida plena y saludable. ¡Acompáñanos en esta aventura y descubre todo lo que podemos ofrecer a tu compañero de vida!</p>
-        </section>
-
-        <section class="estilo" id="productos">
-            <h2>Productos</h2>
-            <p>Alimentos y Snacks
-
-                Alimentos secos, húmedos y especiales para diferentes tipos de mascotas.
-                
-                Juguetes y Entretenimiento
-                
-                Juguetes interactivos, pelotas, mordedores y juegos de inteligencia.
-                
-                Camas y Descanso
-                
-                Camas, almohadones, mantas y muebles para el descanso de las mascotas.
-                
-                Higiene y Cuidado
-                
-                Champús, cepillos, cortauñas, pañales y artículos para la limpieza dental.
-                
-                Accesorios y Ropa
-                
-                Collares, correas, arneses, ropa, y accesorios de moda.
-                
-                Salud y Bienestar
-                
-                Suplementos, vitaminas, antiparasitarios, y productos veterinarios.
-                
-                Transporte y Viaje
-                
-                Jaulas, transportadoras, mochilas y accesorios de viaje.
-                
-                Acuarios y Terrarios
-                
-                Productos para peces, reptiles y otros animales exóticos.
-                
-                Rascadores y Mobiliario
-                
-                Rascadores, árboles para gatos y muebles interactivos.
-                
-                Comederos y Bebederos
-                
-                Platos, bebederos automáticos y fuentes de agua.</p>
-        </section>
 
         <section class="estilo" id="mas-vendidos">
-            <h2>Los más Vendidos</h2>
-            <p>Top 10 de los productos más vendidos</p>
+            <h2>Nuestros Más Vendidos de la Semana </h2>
+            <div class="menu-contenedor">
+                <div class="card">
+                    <img src="mas/pelota.jpeg" alt="Plato Juguete"> 
+                    <h3>Plato Juguete Interactivo</h3>
+                    <p><b>$169</b> 
+                </div>
+
+                    <div class="card">
+                        <img src="mas/pechera.jpeg" alt="Pechera Comfort Premium"> 
+                        <h3>Pechera Comfort Premium</h3>
+                        <p><b>$620</b> 
+                    </div>
+
+                        <div class="card">
+                            <img src="mas/croqueta.jpeg" alt="Proplan Sensitive 8kg"> 
+                            <h3>Proplan Sensitive 8kg</h3>
+                            <p><b>$799</b> 
+                        </div>
+
+
+                <div class="card">
+                    <img src="mas/treat.jpeg" alt="Premios y recompensas"> 
+                    <h3>Premios y recompensas</h3>
+                    <p><b>$70</b> 
+                </div>
+
+            </div>
+        </section>
+
+     
+
+
+        <section class="estilo" id="menu">
+            <h2> Nuestros Productos </h2>
+            <div class="menu-contenedor">
+                <div class="card">
+                    <img src="productos/correa.jpeg" alt="Collares, Correas y Pecheras"> 
+                    <h3>Collares, Correas y Pecheras</h3>
+                    <p><b>Para todo tipo de especies</b> 
+                </div>
+
+                    <div class="card">
+                        <img src="productos/croqueta.jpeg" alt="Alimento"> 
+                        <h3>Alimento para mascotas</h3>
+                        <p><b>Seco, Húmedo y Otros</b> 
+                    </div>
+
+                        <div class="card">
+                            <img src="productos/juguetes.jpeg" alt="Juguetes"> 
+                            <h3>Juguetes</h3>
+                            <p><b>Para todas las especies y personalidades</b> 
+                        </div>
+
+
+                <div class="card">
+                    <img src="productos/limpieza.jpeg" alt="Higiene"> 
+                    <h3>Higiene</h3>
+                    <p><b>Shampoos, Jabones, Tratamientos y más</b> 
+                </div>
+
+                    <div class="card">
+                        <img src="productos/premios.jpeg" alt="Premios"> 
+                        <h3>Recompensas y Premios</h3>
+                        <p><b>Todo Tipo de Sabores y Estilos</b> 
+                    </div>
+
+                        <div class="card">
+                            <img src="productos/vitaminas.jpeg" alt="Salud"> 
+                            <h3>Complementos Alimenticios y Todo para su Salud</h3>
+                            <p><b>Gran Variedad</b> 
+                        </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section class="estilo" id="personal">
+            <h2>¡Conoce a los Nuevos Mejores Amigos de tu Peludo!</h2>
+            <div class="personal-contenedor">
+                <div class="personal-card">
+                    <img src="img/felicidad.jpeg" alt="Martha">
+                    <h3>Martha</h3>
+                    <p>Consultora en Felicidad Canina</p>
+                </div>
+                <div class="personal-card">
+                    <img src="img/persona.jpeg" alt="Ximena">
+                    <h3>Ximena</h3>
+                    <p>Experta en Bienestar Animal</p>
+                </div>
+                <div class="personal-card">
+                    <img src="img/nutricion.jpeg" alt="Felipe ">
+                    <h3>Felipe</h3>
+                    <p>Nutricionista Animal</p>
+                </div>
+                <div class="personal-card">
+                    <img src="img/peluqueria.jpeg" alt="">
+                    <h3>Olivia</h3>
+                    <p>Especialista en Peluqueria y Estética</p>
+                </div>
+                <div class="personal-card">
+                    <img src="img/adiestrador.jpeg" alt="">
+                    <h3>Enrique</h3>
+                    <p>Adiestrador Profesional</p>
+                </div>
+                <div class="personal-card">
+                    <img src="img/tienda.jpeg" alt="">
+                    <h3>Jaime</h3>
+                    <p>Diseñador de Productos</p>
+                </div>
+                </div>
         </section>
 
         <section class="estilo" id="redes-sociales">
-            <h2>Siguenos en nuestras Redes</h2>
-            <p>Obten los mejores descuentos y las más recientes noticias diariamente</p>
-
+            <h2>Síguenos en nuestras Redes</h2>
+            <p>¡Síguenos en redes sociales y mantente al día con nuestros nuevos productos, campañas de bienestar para tus mascotas y muchas sorpresas, incluyendo descuentos exclusivos! ¡No te lo pierdas</p>
+            <div class="redes-contenedor">
+                </div>
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2024 Chucho Miau. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
