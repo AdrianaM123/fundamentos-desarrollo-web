@@ -224,16 +224,52 @@ footer {
 }
 
 /*Media queries para pantallas pequeñas*/
-@media (max-width: 768px){
-    .contenedor{
+/* Media queries para pantallas pequeñas */
+@media (max-width: 780px) {
+    .contenedor {
         width: 90%;
+        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+        align-items: center; /* Centra los elementos */
     }
 
-    nav ul{
+    header h1 {
+        font-size: 2.5em; /* Reduce el tamaño del texto */
+    }
+
+    nav ul {
         flex-direction: column;
-        align-items: center;
+        align-items: center; /* Alinea los enlaces al centro */
+        padding: 10px 0; /* Añade un poco de espacio vertical */
     }
 
-    
+    nav ul li {
+        margin: 10px 0; /* Espaciado vertical entre los elementos del menú */
+        font-size: 1.2em; /* Reduce el tamaño de la fuente */
+    }
 
+    .hero h2 {
+        font-size: 2em; /* Ajusta el tamaño del título */
+    }
+
+    .hero p {
+        font-size: 1em; /* Ajusta el tamaño del párrafo */
+    }
+
+    .historia-grid {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+    }
+
+    .card {
+        width: 100%; /* Hace que las tarjetas ocupen el 100% del ancho */
+        margin: 10px 0; /* Espaciado vertical entre las tarjetas */
+    }
+
+    .personal-contenedor {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+    }
+
+    .personal-card img {
+        width: 150px; /* Reduce el tamaño de la imagen */
+        height: 150px; /* Ajusta la altura */
+    }
 }
